@@ -18,10 +18,14 @@
     [Entry registerSubclass];
     [Parse enableLocalDatastore];
 
-    [Parse setApplicationId:@"mfr0V12p7nitm19BYBEHmBQOaA2WisIIJFxzABaJ"
-                  clientKey:@"jm2QZw8XGwDduuhf9SviN4KGt07vRtdoJBJj8O8C"];
+    [Parse setApplicationId:@"ZOSQdGltyNtlzeOwfbej61cwLn5qciAjfOkFrgJT"
+                  clientKey:@"0KBogRIiXL42MS6SEcLLh3mLGiiQz2WRA3DKnI51"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
+    [PFUser enableAutomaticUser];
+    PFACL *defaultACL = [PFACL ACL];
+    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
+    
     return YES;
 }
 							

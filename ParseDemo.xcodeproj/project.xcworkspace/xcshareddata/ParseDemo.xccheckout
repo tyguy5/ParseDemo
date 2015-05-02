@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>52A0A5DB-2250-40CB-93C9-80C73F4A4836</string>
+	<string>5AED73F7-E9B5-4C60-9200-EC163981A39E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ParseDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>70EA36430F3AC7AF08D37FEF50EE14085AF2724B</key>
-		<string>https://github.com/DevMountain/ParseDemo.git</string>
+		<string>https://github.com/tyguy5/ParseDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ParseDemo.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/DevMountain/ParseDemo.git</string>
+	<string>https://github.com/tyguy5/ParseDemo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
