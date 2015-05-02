@@ -7,22 +7,23 @@
 //
 
 #import "PDAppDelegate.h"
-#import "Entry.h"
 #import <Parse/Parse.h>
 
 @implementation PDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
-    [Entry registerSubclass];
     [Parse enableLocalDatastore];
 
-    [Parse setApplicationId:@"---"
-                  clientKey:@"---"];
+    [Parse setApplicationId:@"ZOSQdGltyNtlzeOwfbej61cwLn5qciAjfOkFrgJT"
+                  clientKey:@"0KBogRIiXL42MS6SEcLLh3mLGiiQz2WRA3DKnI51"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
     return YES;
+    
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"moo"] = @"bar";
+    [testObject saveInBackground];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

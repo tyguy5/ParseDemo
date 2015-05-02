@@ -7,7 +7,7 @@
 //
 
 #import "PDViewController.h"
-#import "Entry.h"
+
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
 
